@@ -1,0 +1,38 @@
+# Fichiers du système
+**/.DS_Store
+**/Thumbs.db
+
+# Dossiers de build .NET
+bin/
+obj/
+
+# Dossiers de build publiés
+/app/publish/
+appsettings.Development.json
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# VS Code / Rider / Visual Studio
+.vscode/
+.idea/
+*.sln.docstates
+
+# Logs
+*.log
+
+# Git
+.git/
+.gitignore
+
+# Node (si tu as du tooling JS)
+node_modules/
+
+# Docker
+Dockerfile*
+docker-compose*
+
+# Cache
+*.cache
